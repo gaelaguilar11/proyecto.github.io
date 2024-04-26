@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Cambio de color de fondo */
+}
+
+.container {
+    width: 90%; /* Aumento del ancho del contenedor */
+    max-width: 1200px; /* Establecimiento de un ancho máximo */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Inclusión del padding en el ancho */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #007bff; /* Cambio de color de fondo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centrado del contenido */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.25rem; /* Aumento del tamaño de fuente */
+}
+
+header p {
+    font-size: 1.25rem; /* Aumento del tamaño de fuente */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Eliminación del margen derecho del último elemento */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem; /* Reducción del tamaño de fuente */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+header nav ul li a:hover {
+    color: #ffc107; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 3.125rem 0;
+}
+
+section h2 {
+    color: #007bff; /* Cambio de color de título */
+    font-size: 1.75rem; /* Ajuste del tamaño de fuente */
+    margin-bottom: 1.25rem; /* Espaciado inferior */
+}
+
+section p {
+    color: #444;
+    font-size: 1rem; /* Reducción del tamaño de fuente */
+    line-height: 1.6; /* Aumento del espaciado entre líneas */
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0; /* Eliminación del padding izquierdo */
+}
+
+section ul li {
+    margin-bottom: 0.625rem;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #343a40; /* Cambio de color de fondo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Prácticos de Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios Prácticos de Java</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="cursos.html">Nuestros Cursos</a></li>
+                <li><a href="equipo.html">Nuestro Equipo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="descripcion" class="container">
+        <h2>Ejercicios Prácticos de Java</h2>
+        <p>Los siguientes ejercicios prácticos te ayudarán a poner en práctica tus conocimientos de Java. Cada ejercicio viene con una breve explicación y un código de ejemplo para que puedas comprender mejor los conceptos.</p>
+    </section>
+
+    <section id="ejercicios" class="container">
+        <h2>Ejercicios</h2>
+        <div class="exercise">
+            <h3>Ejercicio 1: Suma de dos números</h3>
+            <p>Realiza un programa en Java que solicite al usuario dos números enteros y muestre la suma de los mismos.</p>
+            <pre><code>
+public class SumaNumeros {
+    public static void main(String[] args) {
+        int numero1 = 5;
+        int numero2 = 7;
+        int suma = numero1 + numero2;
+        System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + suma);
+    }
+}
+            </code></pre>
+        </div>
+
+        <div class="exercise">
+            <h3>Ejercicio 2: Factorial de un número</h3>
+            <p>Desarrolla un programa en Java que calcule el factorial de un número entero ingresado por el usuario.</p>
+            <pre><code>
+public class Factorial {
+    public static void main(String[] args) {
+        int numero = 5;
+        int factorial = 1;
+        for (int i = 1; i <= numero; i++) {
+            factorial *= i;
+        }
+        System.out.println("El factorial de " + numero + " es: " + factorial);
+    }
+}
+            </code></pre>
+        </div>
+
+        <!-- Agrega más ejercicios según sea necesario -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Derechos de autor © 2024 CECyTEM 20 Uruapan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recursos de JavaScript</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                <li><a href="cursos.html">Nuestros Cursos</a></li>
+                <li><a href="equipo.html">Nuestro Equipo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="descripcion" class="container">
+        <h2>Recursos de JavaScript</h2>
+        <p>JavaScript es un lenguaje de programación fundamental en el desarrollo web. Aquí encontrarás una variedad de recursos, desde tutoriales y libros hasta ejemplos de código y herramientas útiles para mejorar tus habilidades en JavaScript.</p>
+    </section>
+
+    <section id="tutoriales" class="container">
+        <h2>Tutoriales</h2>
+        <div class="tutorial">
+            <h3>Introducción a JavaScript</h3>
+            <p>Aprende los conceptos básicos de JavaScript con este tutorial interactivo.</p>
+            <a href="https://www.w3schools.com/js/" target="_blank" class="button">Ir al Tutorial</a>
+        </div>
+        <div class="tutorial">
+            <h3>Manipulación del DOM</h3>
+            <p>Descubre cómo manipular el Document Object Model (DOM) con JavaScript.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank" class="button">Ir al Tutorial</a>
+        </div>
+    </section>
+
+    <section id="ejemplos" class="container">
+        <h2>Ejemplos de Código</h2>
+        <div class="example">
+            <h3>Ejemplo 1: Manipulación del DOM</h3>
+            <p>Este código JavaScript muestra cómo cambiar el color de fondo de un elemento HTML con el id "demo" cuando se hace clic en un botón.</p>
+            <pre><code>
+document.getElementById("boton").addEventListener("click", function() {
+  document.getElementById("demo").style.backgroundColor = "red";
+});
+            </code></pre>
+        </div>
+        <div class="example">
+            <h3>Ejemplo 2: Validación de Formulario</h3>
+            <p>Valida un formulario HTML utilizando JavaScript para asegurarte de que todos los campos obligatorios estén completos antes de enviar los datos.</p>
+            <pre><code>
+function validarFormulario() {
+  var nombre = document.forms["miFormulario"]["nombre"].value;
+  if (nombre == "") {
+    alert("Por favor, ingresa tu nombre");
+    return false;
+  }
+}
+            </code></pre>
+        </div>
+    </section>
+
+    <section id="herramientas" class="container">
+        <h2>Herramientas Útiles</h2>
+        <p>Aquí encontrarás una lista de herramientas y recursos adicionales para mejorar tu experiencia de desarrollo en JavaScript:</p>
+        <ul>
+            <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - Un potente editor de código que incluye soporte para JavaScript.</li>
+            <li><a href="https://babeljs.io/" target="_blank">Babel</a> - Una herramienta que te permite escribir JavaScript moderno y convertirlo en una versión compatible con versiones anteriores de los navegadores.</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">Mozilla Developer Network (MDN) - JavaScript Guide</a> - Una guía completa para aprender JavaScript desde cero.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Derechos de autor © 2024 CECyTEM 20 Uruapan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
